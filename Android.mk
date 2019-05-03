@@ -33,5 +33,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR := \
     $(LOCAL_PATH)/private
 
 include device/custom/sepolicy/qcom/sepolicy.mk
+include vendor/livedisplay/sepolicy/qcom/sepolicy.mk
 
 endif
